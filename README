@@ -1,0 +1,32 @@
+Task 1: Citesc sub forma de matrice imaginea data ca parametru si aplic functia
+de descompunere a valorilor singulare asupra acesteia. Apoi, se compreseaza
+imaginea in functie de valoarea k prin modificarea elementelor de pe pozitii
+mai mari decat k cu 0. In final se compune matricea A_k.
+
+Task 3: Citesc sub forma de matrice imaginea data ca parametru si calculez,
+apoi, media aritmetica a fiecarei linii si o pun intr-un vector nou. La
+fiecare pas modific liniile matricei. Dupa aceea, calculez matricea Z si aplic
+descompunerea valorilor singulare pe aceasta. Adaug intr-o noua matrice W
+primele k coloane din matricea V obtinuta in urma aplicarii DVS. In final, calculez Y si, respectiv, A_k.
+
+Task 4: Citesc sub forma de matrice imaginea data ca parametru si calculez,
+apoi, media aritmetica a fiecarei linii si o pun intr-un vector nou. La
+fiecare pas modific liniile matricei. Dupa aceea, calculez matricea Z si aflu
+valorile ei singulare. Initializez o noua matrice W si adaug in aceasta primele
+k valori din matricea vectorilor proprii V, obtinuta in urma aplicarii DVS. In
+final, calculez Y si, respectiv A_k.
+
+Eigenface core: Citesc directorul dat ca parametru functiei si retin numarul
+imaginilor aflate in acesta. Pentru fiecare poza din director construiesc
+vectorul coloana cu fiecare valoare a matricei respective. Apoi, construiesc
+matricea T cu toti vectorii coloana. Dupa aceea, construiesc un vector cu
+mediile aritmerice de pe fiecare linie a matricei T. Construiesc o matrice
+auxiliara si aplic DVS pe aceasta. Apoi, pun intr-o noua matrice V vectorii
+proprii corespunzatori valorilor proprii mai mari decat 1. In final, calculez
+matricea de proiectii ale imaginilor.
+
+Face recognition: Citesc o matrice de test data ca parametru, apoi pun intr-un
+vector coloana toate valorile acesteia. Dupa aceea, calculez proiectia imaginii
+de test. Initializez distanta minima cu infinit(Inf) si indexul cu 0. Parcurg
+coloanele matricei si compar diferenta in modul dintre proiectii cu distanta
+minima, in caz afirmativ, actualizand distanta minima si indexul.
